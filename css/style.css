@@ -1209,5 +1209,9 @@ section {
     width: 100%;
     overflow: hidden;
   }
+   .home .slides-container .slide .content {
+  flex: 1 1 40rem;
+  animation:none;
+}
 }
 /*# sourceMappingURL=style.css.map */
