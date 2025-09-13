@@ -1205,6 +1205,16 @@ section {
   html {
     font-size: 50%;
   }
+  .header .login-form {
+    position: absolute;
+    top: 115%;
+    right: -150%;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 35rem;
+    padding: 2rem;
+}
   .home .slides-container .slide .content h3 {
     font-size: 5rem;
   }
@@ -1221,7 +1231,6 @@ section {
 {
   font-size: 2rem;
   position: absolute ;
-  margin-top: 150px;
 }
 }
 /*# sourceMappingURL=style.css.map */
