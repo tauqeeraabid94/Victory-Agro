@@ -147,7 +147,6 @@ section {
 
  /*search section ends here*/
 
-
  /*shopping cart section starts here*/
 
 .header .shopping-cart {
@@ -346,6 +345,27 @@ section {
   display: flex;
 }
 
+.home .slides-container .slide .content {
+  flex: 1 1 40rem;
+  animation: fadeLeft .4s linear .4s backwards;
+}
+@keyframes fadeLeft 
+{
+  0%
+  {
+    transform: translateX(-5rem);
+    opacity: 0;
+  }  
+}
+
+@keyframes fadeUp 
+{
+  0%
+  {
+    transform:scale(.5);
+    opacity: 0;
+  }  
+}
 
 /* welcome animation starts here */
 
@@ -1167,27 +1187,6 @@ section {
     display: block;
     border-radius: .5rem;
   }
-  .home .slides-container .slide .content {
-  flex: 1 1 40rem;
-  animation:fadeLeft .4s linear .4s backwards;
-}
-  @keyframes fadeLeft 
-{
-  0%
-  {
-    transform: translateX(0rem);
-    opacity: 0;
-  }  
-}
-
-@keyframes fadeUp 
-{
-  0%
-  {
-    transform:scale(.0);
-    opacity: 0;
-  }  
-}
 }
 
 @media (max-width: 666px) {
@@ -1206,26 +1205,5 @@ section {
     width: 100%;
     overflow: hidden;
   }
-   .home .slides-container .slide .content {
-  flex: 1 1 40rem;
-  animation:fadeLeft .4s linear .4s backwards;
-}
-  @keyframes fadeLeft 
-{
-  0%
-  {
-    transform: translateX(0rem);
-    opacity: 0;
-  }  
-}
-
-@keyframes fadeUp 
-{
-  0%
-  {
-    transform:scale(.0);
-    opacity: 0;
-  }  
-}
 }
 /*# sourceMappingURL=style.css.map */
