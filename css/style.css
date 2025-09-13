@@ -1187,6 +1187,10 @@ section {
     display: block;
     border-radius: .5rem;
   }
+  .header-icon {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media (max-width: 666px) {
