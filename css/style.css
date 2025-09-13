@@ -1234,6 +1234,10 @@ section {
   flex: 1 1 40rem;
   margin: 1rem 0;
 }
+  .home .slides-container .slide .image img {
+  width: 80%;
+  animation: fadeUp .4s linear .4s;
+}
   .home .slides-container .slide .content h3 {
     font-size: 5rem;
   }
