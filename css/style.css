@@ -346,27 +346,6 @@ section {
   display: flex;
 }
 
-.home .slides-container .slide .content {
-  flex: 1 1 40rem;
-  animation: fadeLeft .4s linear .4s backwards;
-}
-@keyframes fadeLeft 
-{
-  0%
-  {
-    transform: translateX(-5rem);
-    opacity: 0;
-  }  
-}
-
-@keyframes fadeUp 
-{
-  0%
-  {
-    transform:scale(.5);
-    opacity: 0;
-  }  
-}
 
 /* welcome animation starts here */
 
