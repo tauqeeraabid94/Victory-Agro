@@ -147,6 +147,7 @@ section {
 
  /*search section ends here*/
 
+
  /*shopping cart section starts here*/
 
 .header .shopping-cart {
@@ -1189,7 +1190,7 @@ section {
   }
   .home .slides-container .slide .content {
   flex: 1 1 40rem;
-  animation:none;
+  animation:fadeLeft .4s linear .4s backwards;
 }
   @keyframes fadeLeft 
 {
@@ -1228,7 +1229,7 @@ section {
   }
    .home .slides-container .slide .content {
   flex: 1 1 40rem;
-  animation:none;
+  animation:fadeLeft .4s linear .4s backwards;
 }
   @keyframes fadeLeft 
 {
