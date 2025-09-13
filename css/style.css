@@ -1191,6 +1191,23 @@ section {
   flex: 1 1 40rem;
   animation:none;
 }
+  @keyframes fadeLeft 
+{
+  0%
+  {
+    transform: translateX(0rem);
+    opacity: 0;
+  }  
+}
+
+@keyframes fadeUp 
+{
+  0%
+  {
+    transform:scale(.0);
+    opacity: 0;
+  }  
+}
 }
 
 @media (max-width: 666px) {
@@ -1212,6 +1229,23 @@ section {
    .home .slides-container .slide .content {
   flex: 1 1 40rem;
   animation:none;
+}
+  @keyframes fadeLeft 
+{
+  0%
+  {
+    transform: translateX(0rem);
+    opacity: 0;
+  }  
+}
+
+@keyframes fadeUp 
+{
+  0%
+  {
+    transform:scale(.0);
+    opacity: 0;
+  }  
 }
 }
 /*# sourceMappingURL=style.css.map */
