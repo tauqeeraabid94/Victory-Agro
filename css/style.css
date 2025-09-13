@@ -1230,6 +1230,10 @@ section {
     width: 35rem;
     padding: 2rem;
 }
+  .home .slides-container .slide .image {
+  flex: 1 1 40rem;
+  margin: 1rem 0;
+}
   .home .slides-container .slide .content h3 {
     font-size: 5rem;
   }
