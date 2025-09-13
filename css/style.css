@@ -1165,6 +1165,9 @@ section {
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
   }
   .header .navbar {
+    display: bloack;
+    margin:0 auto ;
+    text-align:center;
     position: absolute;
     top: 99%;
     left: 0;
