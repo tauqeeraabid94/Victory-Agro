@@ -1205,6 +1205,10 @@ section {
   html {
     font-size: 50%;
   }
+  .logo
+  {
+    width:100px;
+  }
   .icons div {
     font-size: 2.5rem;
     margin-left:1rem;
