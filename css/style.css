@@ -1217,5 +1217,17 @@ section {
     width: 100%;
     overflow: hidden;
   }
+   .home .slides-container .slide .content p
+{
+  font-size: 2rem;
+  margin-top: -150px;
+  margin-bottom: 100px;
+  position: relative ;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {left: 10px;}
+  to {left: 10px;}
+}
 }
 /*# sourceMappingURL=style.css.map */
