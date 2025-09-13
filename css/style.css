@@ -1239,7 +1239,7 @@ section {
   
   .products .box-container .box .image {
     height: 30rem;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
   }
    .home .slides-container .slide .content p
