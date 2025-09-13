@@ -1205,6 +1205,17 @@ section {
   html {
     font-size: 50%;
   }
+  .icons div {
+    font-size: 2.5rem;
+    margin-left:1rem;
+    cursor: pointer;
+    color: var(--light-color); 
+}
+
+.icons div:hover
+{
+    color: var(--green);
+}
   .header .login-form {
     position: absolute;
     top: 115%;
