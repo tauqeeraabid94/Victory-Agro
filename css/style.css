@@ -1231,7 +1231,7 @@ section {
     padding: 2rem;
 }
   .home .slides-container .slide .image {
-  flex: 1 1 40rem;
+  flex: 1 1 20rem;
   margin: 1rem 0;
 }
   .home .slides-container .slide .image img {
