@@ -1247,7 +1247,7 @@ section {
   
   .products .box-container .box .image {
     height: 30rem;
-    width: 50%;
+    width: 100%;
     overflow: hidden;
   }
    .home .slides-container .slide .content p
